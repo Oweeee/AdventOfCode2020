@@ -1,5 +1,3 @@
-import { entries } from "./data/entries";
-
 function findTwoAndMultiply(entries: number[]) {
   for (let i = 0; i < entries.length; i++) {
     for (let j = i + 1; j < entries.length; j++) {
@@ -22,5 +20,3 @@ function findThreeAndMultiply(entries: number[]) {
   }
   return false;
 }
-//findTwoAndMultiply(entries);
-findThreeAndMultiply(entries);
